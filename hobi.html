@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #343a40;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #343a40;
+        }
+        .social-links {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        .social-links li {
+            display: inline-block;
+            margin: 10px;
+        }
+        .social-links li a {
+            text-decoration: none;
+            color: #343a40;
+            font-size: 20px;
+            display: block;
+            transition: color 0.3s ease;
+        }
+        .social-links li a:hover {
+            color: #007bff;
+        }
+        .hobbies {
+            margin: 50px 0;
+        }
+        .hobby-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .hobby-item:hover {
+            transform: scale(1.02);
+        }
+        .hobby-item img {
+            max-width: 150px;
+            margin-right: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .hobby-item div {
+            flex: 1;
+        }
+        .hobby-item h3 {
+            margin: 0;
+            color: #343a40;
+        }
+        .hobby-item p {
+            margin: 5px 0 0;
+            color: #555;
+        }
+        .hobby-item a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hobbies">
+            <h2>Hobi Saya</h2>
+            <div class="hobby-item">
+                <a href="basket.html">
+                    <img src="images/basketball.png" alt="Playing Basketball">
+                    <div>
+                        <h3>Bermain Basket</h3>
+                        <p>Saya sangat menyukai bermain basket. Bermain basket membantu saya tetap fit dan sehat.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="hobby-item">
+                <a href="futsal.html">
+                    <img src="images/player.png" alt="Playing Futsal">
+                    <div>
+                        <h3>Bermain Futsal</h3>
+                        <p>Saya juga senang bermain futsal dengan teman-teman. Ini adalah cara yang bagus untuk bersosialisasi dan berolahraga.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="hobby-item">
+                <a href="renang.html">
+                    <img src="images/swimming.png" alt="Swimming">
+                    <div>
+                        <h3>Berenang</h3>
+                        <p>Saya kadang juga beranang agar tubuh saya tetap segar.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Personal Website</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
